@@ -4,9 +4,9 @@
   "description": "Source code of my proposed solution for the weather App Project",
   "main": "index.js",
   "scripts": {
-    "install": "npm init @eslint/config@latest &&  npm install --save-dev --save-exact prettier &&npm install -D html-loader && npm install -D html-webpack-plugin && npm install -D css-loader style-loader && npm install date-fns --save -D && npm install -D webpack-dev-server",
+    "install": "npm install dotenv-webpack && npm install -D webpack-cli && npm init @eslint/config@latest &&  npm install --save-dev --save-exact prettier && npm install -D html-loader && npm install -D html-webpack-plugin && npm install -D css-loader style-loader && npm install date-fns --save -D && npm install -D webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "weback serve",
+    "dev": "webpack serve",
     "build": "npx webpack"
   },
   "repository": {
@@ -31,6 +31,10 @@
     "html-webpack-plugin": "^5.6.6",
     "prettier": "3.8.1",
     "style-loader": "^4.0.0",
+    "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3"
+  },
+  "dependencies": {
+    "dotenv-webpack": "^9.0.0"
   }
 }
