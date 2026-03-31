@@ -1,0 +1,36 @@
+{
+  "name": "odinproject-weatherapp",
+  "version": "1.0.0",
+  "description": "Source code of my proposed solution for the weather App Project",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm init @eslint/config@latest &&  npm install --save-dev --save-exact prettier &&npm install -D html-loader && npm install -D html-webpack-plugin && npm install -D css-loader style-loader && npm install date-fns --save -D && npm install -D webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "weback serve",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arslane101/odinproject-weatherapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Arslane101/odinproject-weatherapp/issues"
+  },
+  "homepage": "https://github.com/Arslane101/odinproject-weatherapp#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "css-loader": "^7.1.4",
+    "date-fns": "^4.1.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "prettier": "3.8.1",
+    "style-loader": "^4.0.0",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
