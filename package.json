@@ -7,7 +7,8 @@
     "install": "npm install dotenv-webpack && npm install -D webpack-cli && npm init @eslint/config@latest &&  npm install --save-dev --save-exact prettier && npm install -D html-loader && npm install -D html-webpack-plugin && npm install -D css-loader style-loader && npm install date-fns --save -D && npm install -D webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "npx webpack"
+    "build": "npx webpack",
+    "init": "npx webpack-cli init"
   },
   "repository": {
     "type": "git",
